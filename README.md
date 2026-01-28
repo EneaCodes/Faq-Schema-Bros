@@ -1,75 +1,58 @@
-# FAQ Schema Bros
+# FAQ Schema Bros – Beautiful FAQ Plugin with Schema Markup
 
-**Add beautiful FAQ sections to your WordPress posts with automatic Schema.org markup for better SEO and Google rich snippets.**  
+**Add beautiful FAQ sections to your WordPress posts with automatic Schema.org markup for better SEO and Google rich snippets.**
 
----
+## 📸 Screenshot
 
-## Features
+![FAQ Schema Bros Screenshot](https://raw.githubusercontent.com/EneaCodes/EneaCodes-FAQ-Schema/main/screenshot-1.png)
 
-- ✅ Add FAQs to posts easily via a clean, modern meta box.  
-- ✅ Automatic **Schema.org FAQPage markup** for Google rich snippets.  
-- ✅ Fully **responsive and stylish** FAQ accordion.  
-- ✅ Supports **top, bottom, or hidden** display position.  
-- ✅ Customizable FAQ items with **question & answer fields**.  
-- ✅ Quick Tips section for travel/blog posts.  
-- ✅ Drag & drop to **reorder FAQs** in the admin panel.  
-- ✅ Safe for HTML content in answers.  
-- ✅ Optimized for **voice search** (Alexa, Google Assistant).  
+*FAQ Schema Bros admin interface and frontend display*
 
----
+## ✨ Features
 
-## Installation
+- ✅ Add FAQs to posts easily via a clean, modern meta box
+- ✅ Automatic **Schema.org FAQPage markup** for Google rich snippets
+- ✅ Fully **responsive and stylish** FAQ accordion
+- ✅ Supports **top, bottom, or hidden** display position
+- ✅ Customizable FAQ items with **question & answer fields**
+- ✅ Quick Tips section for travel/blog posts
+- ✅ Drag & drop to **reorder FAQs** in the admin panel
+- ✅ Safe for HTML content in answers
+- ✅ Optimized for **voice search** (Alexa, Google Assistant)
+- ✅ Clean, lightweight code with no performance impact
 
-1. Download or clone the repository.  
-2. Upload the `faq-schema-bros` folder to your `/wp-content/plugins/` directory.  
-3. Activate the plugin from the **Plugins** menu in WordPress.  
-4. Edit a post, scroll to the **FAQ Schema Bros** meta box, and start adding FAQs.  
+## 📦 Files in This Plugin
 
----
+- `eneacodes-faq-schema.php` – main plugin file
+- `admin-script.js` – admin interface JavaScript
+- `admin-style.css` – admin interface styles
+- `readme.txt` – WordPress.org-style readme
+- [`eneacodes-faq-schema.zip`](https://github.com/EneaCodes/EneaCodes-FAQ-Schema/blob/main/eneacodes-faq-schema.zip) – direct plugin download
+- `languages/` *(optional)* – translation files
 
-## Quick Tips Section
+## 🚀 Installation
 
-Perfect for travel or blog posts. Example tags:  
+### 1. Install from WordPress.org (Recommended)
 
-- Is parking available?  
-- Sandy or pebbles?  
-- Shallow water?  
-- Windy or calm?  
-- Sunbeds & umbrellas?  
-- Free or paid?  
-- Good for families?  
-- Crowded in summer?  
-- Beach bar / food nearby?  
-- WC / showers available?  
-- Good for snorkeling?  
-- Best time to visit?  
-- Good for sunset?  
-- How to get there?  
-- Natural shade?  
-- Lifeguard present?  
+1. Go to [WordPress.org plugin page](https://wordpress.org/plugins/eneacodes-faq-schema/)
+2. Click **"Download Version X.X"**
+3. You'll get: `eneacodes-faq-schema.zip`
+4. In your WordPress admin: **Plugins → Add New → Upload Plugin**
+5. Upload the ZIP file
+6. Click **Install Now**, then **Activate Plugin**
+7. Edit any post/page to see the **FAQ Schema Bros** meta box
 
----
+### 2. Download Directly from GitHub
 
-## FAQ Display Options
+**Option A: Download the ZIP**
+1. Click the direct link: [`eneacodes-faq-schema.zip`](https://github.com/EneaCodes/EneaCodes-FAQ-Schema/blob/main/eneacodes-faq-schema.zip)
+2. Save to your computer
+3. In WordPress: **Plugins → Add New → Upload Plugin**
+4. Upload the downloaded ZIP
+5. Activate the plugin
 
-- **Bottom (Recommended)** – Best for SEO, visible to users.  
-- **Top of Post** – Shows FAQs above your content.  
-- **Hidden** – Only for Schema markup, not visible (not recommended).  
+**Option B: Git Clone (for developers)**
 
----
-
-## Contributing
-
-Submit issues, feature requests, or pull requests. Contributions are welcome!  
-
----
-
-## License
-
-GPLv2 or later – [Read more](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)  
-
----
-
-## Author
-
-**EneaCodes** – [GitHub](https://github.com/EneaCodes)
+```bash
+cd wp-content/plugins
+git clone https://github.com/EneaCodes/EneaCodes-FAQ-Schema.git eneacodes-faq-schema
